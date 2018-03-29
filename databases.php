@@ -2,7 +2,7 @@
   //1. Create a database connection (Note: had to already create DB from MySQL)
   $dbhost = "localhost"; //Can be IP address, domain
   $dbuser = "root"; //User we are logging in as, you need to configure this in MySQL prior
-  $dbpass = "PSvita123!"; //Configure in MySQL prior
+  $dbpass = ""; //Configure in MySQL prior
   $dbname = "mtb_variants"; //
   $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); //Handle for connection to DB
   // Test DB connection:
